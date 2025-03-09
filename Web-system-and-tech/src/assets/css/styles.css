@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -61,5 +61,5 @@ h1, h2, h3 {
 }
 
 .custom-search-form {
-    width: 75%; /* Bạn có thể thay đổi giá trị này để điều chỉnh chiều rộng */
+    width: 60%; /* Bạn có thể thay đổi giá trị này để điều chỉnh chiều rộng */
 }
