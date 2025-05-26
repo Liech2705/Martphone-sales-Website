@@ -1,0 +1,81 @@
+.custom-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+}
+.custom-table td, .custom-table th {
+    vertical-align: middle;
+    text-align: center;
+}
+.custom-table tr:hover {
+    background-color: #eef7ff;
+}
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+.btn-info:hover {
+    background-color: #138496;
+}
+.btn-danger, .btn-success, .btn-warning {
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+.card-header h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.quanlysp {
+    margin-bottom: 20px;
+}
+#check {
+    margin-top: 10px;
+}
+#phantrang_sp {
+    margin-top: 20px;
+    text-align: center;
+}
+.trang, .so {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+.trang:hover, .so:hover {
+    background-color: #17a2b8;
+    color: #fff;
+    border-color: #17a2b8;
+}
+.custom-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+}
+.custom-table td, .custom-table th {
+    vertical-align: middle;
+}
+.custom-table tr:hover {
+    background-color: #eef7ff;
+}
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+.btn-info:hover {
+    background-color: #138496;
+}
+.card-header h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}

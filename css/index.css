@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	background: white;
+	border: 1px solid #e6e6e6;
+	box-shadow: 0 1px 20px #767676;
+}
+
+/* Header */
+#header {
+	width: 100%;
+	height: auto;
+}
+
+#lg-header {
+	padding: 20px 0 0 40px;
+}
+
+#lg-header a {
+	background: url(../img/logo-header.png) no-repeat;
+	width: 104px;
+	height: 98px;
+	display: block;
+	text-indent: -9999px;
+}
+
+#bg-header {
+	background: url(../img/bg-header.png) no-repeat;
+	width: 100%;
+	height: 150px;
+}
+
+#menu-header {
+	width: 100%;
+	height: 50px;
+	background: url(../img/menu-header.png);
+}
+
+#menu ul {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	padding-left: 20px;
+}
+
+#menu ul li {
+	padding: 0 15px;
+	border-left: 1px solid black;
+}
+
+#menu ul li:first-child {
+	border-left: none;
+}
+
+#menu ul li a {
+	color: black;
+}
+
+#menu ul li a:hover {
+	color: blue;
+}
+
+/* Main Content */
+#content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+#left-content,
+#right-content {
+	width: 200px;
+	flex-shrink: 0;
+}
+
+#center-content {
+	flex: 1;
+	min-width: 0;
+}
+
+/* Left sidebar */
+.center {
+	width: 100%;
+	border: 1px solid #b4b4b4;
+	border-radius: 3px;
+}
+
+.center h4 {
+	background: url(../img/tiedeleft.png) no-repeat;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 40px;
+}
+
+.center ul {
+	padding: 0 0 40px 20px;
+}
+
+.center ul li {
+	padding: 10px 0;
+	border-bottom: 1px solid #aea8a8;
+}
+
+.center ul li a {
+	color: black;
+	background: url(../img/muitennho.png) no-repeat left center;
+	padding-left: 20px;
+	display: block;
+}
+
+.center ul li a:hover {
+	color: #6c00d9;
+}
+
+/* Product list */
+.sanpham {
+	margin: 0 0 30px;
+}
+
+.sanpham h2 {
+	background: #9e9f9d;
+	color: white;
+	text-align: center;
+	padding: 7px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.sanphamcon {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.dienthoai {
+	flex: 0 0 calc(33.333% - 14px);
+	border: 1px solid #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+.dienthoai:hover {
+	border: 1px solid #e6e6e6;
+	box-shadow: 0 1px 10px #51524f;
+}
+
+.moi h3 {
+	background: url("../img/moi.png") no-repeat;
+	width: 75px;
+	height: 58px;
+	color: yellow;
+	text-indent: 13px;
+	position: absolute;
+}
+
+.dienthoai img {
+	width: 140px;
+	height: 140px;
+	margin: 20px auto 0;
+	display: block;
+}
+
+.dienthoai p,
+.dienthoai h4 {
+	text-align: center;
+}
+
+.dienthoai h4 {
+	color: red;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	overflow: hidden;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title a {
+	display: block;
+	font-size: 1rem;
+	font-weight: 500;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card-img-top {
+	transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+	transform: scale(1.05);
+}
+
+.card-footer a.btn {
+	width: 100%;
+}
+
+.search-form {
+    max-width: 100%;
+  }
+
+  .search-form .form-control,
+  .search-form .form-select {
+    border-radius: 20px;
+    padding-left: 15px;
+  }
+
+  .search-form .btn-search {
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .search-form {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .search-form .form-control,
+    .search-form .form-select {
+      width: 100% !important;
+    }
+
+    .search-form .btn-search {
+      align-self: flex-end;
+    }
+  }
+
+  .list-group-item:hover {
+	background-color: #f1f1f1;
+	transition: background 0.2s;
+  }
+  
+
+/* Responsive */
+@media (max-width: 768px) {
+	#content {
+		flex-direction: column;
+	}
+
+	#left-content,
+	#right-content,
+	#center-content {
+		width: 100%;
+		margin: 0;
+	}
+
+	.dienthoai {
+		flex: 0 0 48%;
+	}
+}
+
+@media (max-width: 480px) {
+	.dienthoai {
+		flex: 0 0 100%;
+	}
+}

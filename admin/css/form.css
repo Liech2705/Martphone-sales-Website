@@ -1,0 +1,76 @@
+.advertisement_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+.fix_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.form {
+    width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000733;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form input[type="text"],
+.form select {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(253, 253, 253);
+}
+
+.form select.status {
+    width: 100%;
+}
+
+.form ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.funtion {
+    text-align: center;
+}
+
+.funtion input[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color:#000733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.funtion input[type="submit"]:hover {
+    background-color: rgb(194, 216, 24);
+}
